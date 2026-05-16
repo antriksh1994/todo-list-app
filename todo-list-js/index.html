@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <script src="./todo-app.js" defer></script>
+    <div class="todo-app">
+        <h2>Todo App</h2>
+        <div class="create-task">
+            <input class="task-input" type="text" placeholder="Add a task" onchange="handleInputChange(event)">
+            <button class="add-task-btn" onclick="handleAddTask()">Add</button>
+        </div>
+        <div class="tasks-container">
+        </div>
+    </div>
+</body>
+</html>
