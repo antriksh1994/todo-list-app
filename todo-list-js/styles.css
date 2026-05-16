@@ -1,5 +1,12 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #FCC6BB, #FEEBE7);
+}
 .todo-app {
-  background-color: beige;
+  background: linear-gradient(135deg, beige, #f0f0f0);
   width: 20%;
   padding: 10px 40px 40px 40px;
   border-radius: 25px;
@@ -7,13 +14,10 @@
 .tasks-container {
   margin-top: 20px;
 }
-.delete-task-btn {
-  margin-left: 10px;
-  color: white;
-  background-color: red;
-  border: 1px solid white;
-  border-radius: 4px;
-  height: 24px;
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 .task {
   display: flex;
@@ -25,6 +29,23 @@
 .completed {
   text-decoration: line-through;
 }
+.delete-task-btn {
+  margin-left: 10px;
+  color: white;
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 4px;
+  height: 24px;
+}
+.edit-task-btn {
+  margin-left: 10px;
+  color: white;
+  background-color: palevioletred;
+  border: 1px solid white;
+  border-radius: 4px;
+  height: 24px;
+}
+
 .add-task-btn {
   margin-left: 10px;
   color: white;
